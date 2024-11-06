@@ -28,6 +28,10 @@ body {
     color: var(--text-color);
 }
 
+.en-prepa{
+    font-size:75%;
+}
+
 .header {
     position: fixed;
     top:0;
