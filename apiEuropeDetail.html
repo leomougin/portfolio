@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Détail API Pays Europe - Léo Mougin</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-details-page">
+<header class="header">
+  <a href="/#home" class="logo">Portfolio.<span class="animate" style="--i:1;"></span></a>
+  <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+  <nav class="navbar">
+    <a href="/#home" class="active">Accueil</a>
+    <a href="/#about">À propos de Moi</a>
+    <a href="/#education">Parcours</a>
+    <a href="/#projet">Mes Projets</a>
+    <a href="/#">Contact</a>
+    <span class="active-nav"></span>
+    <span class="animate" style="--i:2;"></span>
+  </nav>
+</header>
+<a href="../index.html#projets" class="back-button d-flex align-items-center justify-content-center">
+  <i class="bi bi-box-arrow-left"></i>
+</a>
+<main class="main">
+  <!-- Portfolio Details Section -->
+  <section  class="projet-details">
+    <div class="container" >
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <div class="projet-details-titre rounded p-5 mb-5">
+            <h3 id="h3-details-sanction" class="fs-1">Projet API Pays Europe</h3>
+            <hr class="me-5">
+            <ul >
+              <li>Année: 2024 - 2025</li>
+              <li>Projet réalisé en première année de BTS SIO</li>
+            </ul>
+          </div>
+          <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            <h2>Description du projet</h2>
+            <p class="fw-bold">Projet Web - Site de gestion de pays</p>
+            <p class="text-secondary">Dans le cadre de mon BTS SIO, j’ai conçu un site web interactif dédié à la gestion de pays grâce à un API. Grâce à cette API, il est possible de connaître la capitale, le nombre d'habitant, sa région, sa superficie et d'autre information à propos du pays en question.</p>
+            <p class="fw-bold">Fonctionnalités principales :</p>
+<!--            <ul class="text-secondary">-->
+<!--              <li><strong>Système de comptes utilisateurs :</strong> Connexion, inscription, et gestion des sessions pour permettre aux utilisateurs de participer activement sur la plateforme.</li>-->
+<!--              <li><strong>Lister les films :</strong> Possibilité de lister un film et avoir un page détails qui nous le décrit. Il sera définis par un titre, un auteur, un résumé, une date de parution ainsi qu'une note et des avis si un utilisateur en a déjà crée.</li>-->
+<!--              <li><strong>Ajout d'un film :</strong> Les utilisateurs ont la possibilité d'ajouter des films, ensuite l'utilisateur peut afficher tous les films qu'il a lui même ajouté sur le site, fonctionnalité réservée aux utilisateurs connectés.</li>-->
+<!--              <li><strong>Ajout et affichage d'un avis:</strong> Un utilisateur peut attribuer un avis à un élève. Et il est affiché dans la page de détails dédiée au film en concerné.</li>-->
+<!--            </ul>-->
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div id="carouselExample" class=" align-items-center carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/api1.png" width="800" height="500">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/api2.png" width="800" height="500">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden bg-white">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info mt-5" data-aos="fade-up" data-aos-delay="200">
+              <h3>Architecture Technique du Projet</h3>
+              <ul>
+                <li>Base de données : Aucune base de donnée n'a été utilisé</li>
+                <li>Backend : <span class="fw-bold souligne-bleu">JavaScript</span></li>
+                <li>Frontend : <span class="fw-bold souligne-bleu">HTML et CSS (via Bootstrap)</span> pour le design.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Portfolio Details Section -->
+</main>
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2024 par Léo MOUGIN | Tous Droits Réservés.</p>
+    <span  style="--i:1;"></span>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    <span  style="--i:3;"></span>
+  </div>
+</footer>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Main JS File -->
+<script src="script.js"></script>
+</body>
+</html>
